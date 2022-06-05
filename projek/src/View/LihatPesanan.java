@@ -21,6 +21,7 @@ public class LihatPesanan extends javax.swing.JFrame {
         initComponents();
         pesan = new CotrollerListPesanan(this);
         pesan.load_table();
+        setLocationRelativeTo(null);
     }
  public JTable getTableData(){
         return jTable1;

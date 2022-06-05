@@ -19,6 +19,7 @@ public class DetailPesanan extends javax.swing.JFrame {
      */
     public DetailPesanan() {
         initComponents();
+        setLocationRelativeTo(null);
     }
     public DetailPesanan(pesan arg) {
         initComponents();

@@ -18,6 +18,7 @@ public class MenuRegister extends javax.swing.JFrame {
     public MenuRegister() {
         initComponents();
         regist = new RegisterSystem(this);
+        setLocationRelativeTo(null);
     }
 
     public JPasswordField getReg_password() {

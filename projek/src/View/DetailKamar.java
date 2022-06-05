@@ -15,6 +15,7 @@ public class DetailKamar extends javax.swing.JFrame {
      */
     public DetailKamar() {
         initComponents();
+        setLocationRelativeTo(null);
     }
 
     /**

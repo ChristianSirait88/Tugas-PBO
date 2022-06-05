@@ -18,6 +18,7 @@ public class ListKamar extends javax.swing.JFrame {
         initComponents();
         kamar= new ControllerKamar(this);
         kamar.load_table();
+        setLocationRelativeTo(null);
     }
 
     /**
